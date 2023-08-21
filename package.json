@@ -1,0 +1,28 @@
+{
+  "name": "prisma-engine-span",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "prisma": "^5.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@opentelemetry/exporter-trace-otlp-http": "^0.41.2",
+    "@opentelemetry/instrumentation": "^0.41.2",
+    "@opentelemetry/resources": "^1.15.2",
+    "@opentelemetry/sdk-trace-base": "^1.15.2",
+    "@opentelemetry/sdk-trace-node": "^1.15.2",
+    "@opentelemetry/semantic-conventions": "^1.15.2",
+    "@prisma/client": "^5.1.1",
+    "@prisma/instrumentation": "^5.1.1"
+  }
+}
